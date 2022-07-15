@@ -1,5 +1,6 @@
 import os
 
+# ANSI Colors
 colors = {
     'red': "\033[91m",
     'base': "\033[0m"
